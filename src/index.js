@@ -10,8 +10,9 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
 import 'antd/dist/antd.css'; 
-import './assets/css/index.css';
 import './assets/css/reset.css';
+import './assets/css/index.css';
+import './assets/css/common.css'
 
 import store from './store/index'
 import Layout from './layout/layout'

@@ -11,4 +11,4 @@ export const DECREMENT = 'DECREMENT';// 减少数字
 export const ADDITEM = 'ADDITEM';// 增加todo数据
 export const CHANGEVALUE = 'CHANGEVALUE';// todo输入框改变时
 export const DELITEM = 'DELITEM';// 删除todo数据
-
+export const TOGGLEMENU = 'TOGGLEMENU';// 菜单切换

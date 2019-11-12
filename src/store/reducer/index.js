@@ -8,9 +8,10 @@
 import { combineReducers } from 'redux'
 import CountReducer from './countReducer/CountReducer'
 import ToDoListReducer from './ToDoListReducer/ToDoListReducer'
-
+import COLLAPSED from './collapsedReducer/collapsedReducer'
 
 export default combineReducers({
   CountReducer,
-  ToDoListReducer
+  ToDoListReducer,
+  COLLAPSED,
 })
