@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow: hidden;
+}
+.clearfix::after {
+  content: '';
+  display: 'black';
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}

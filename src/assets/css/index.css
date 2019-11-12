@@ -1,0 +1,15 @@
+#root, .layout-wrap, .layout-left-wrap {
+  height: 100%;
+  width: 100%;
+}
+.layout-left-wrap {
+  float: left;
+  width: 200px;
+  background-color: #001529;
+}
+.layout-right-wrap {
+  margin-left: 200px;
+  background-color: #fff;
+  height: 100%;
+  overflow-y: scroll;
+}
