@@ -1,3 +1,3 @@
 import { TOGGLEMENU } from '../actionTypes'
-//包含所有的action creator
+// 菜单切换
 export const toggleMenuHand = () =>({type: TOGGLEMENU})

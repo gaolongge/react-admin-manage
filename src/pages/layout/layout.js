@@ -5,7 +5,8 @@ import MainContent from './mainContent'
 import MainAside from './mainAside'
 import { Layout } from 'antd';
 const { Header, Footer,  Content} = Layout;
-import menu from './menu'
+import menu from '../../menu/menu'
+import routes from '../../routes/routes'
 class LayoutIndex extends Component {
     render() {
         return (
@@ -16,7 +17,7 @@ class LayoutIndex extends Component {
                   <MainHeader />
                 </Header>
                 <Content>
-                  <MainContent />
+                  <MainContent routes={routes}/>
                 </Content>
                 <Footer>
                   <MainFooter />

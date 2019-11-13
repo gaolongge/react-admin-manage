@@ -7,9 +7,12 @@
  */
 import React, {Component} from 'react'
 import { connect } from 'react-redux';
-import { List, Input, Button } from 'antd';
-import { addNameCreater, addNameAsync } from '../store/action'
-import * as type from '../store/actionTypes'
+import { List, Input, Button, Typography } from 'antd';
+// import { addNameCreater, addNameAsync } from '../../store/action'
+import * as type from '../../store/actionTypes'
+
+const { Title} = Typography;
+
 class ToDoList extends Component {
   constructor(props) {
     super(props)
@@ -42,9 +45,8 @@ class ToDoList extends Component {
   render() {
     return (
       <div style={{padding: '20px'}}>
-
-        我是todolist
-        {this.props.count}
+        <Title>结合react-redux的todolist Demo</Title>
+        {/* {this.props.count} */}
         <div style={{padding:20}}>
           <Input 
             onChange={this.changValue} 

@@ -6,7 +6,7 @@
  * @LastEditors: Please set LastEditors
  */
 import React, {Component} from 'react'
-import ToDoList from '../todolist/ToDoList'
+import ToDoList from '../pages/todolist/todolist'
 import Counter from '../Counter';
 class layoutRightMain extends Component {
   render() {

@@ -33,4 +33,9 @@
   margin: 12px;
   color: #fff;
   text-align: center;
+  font-size: 40px;
+}
+.main-contnent-wrap {
+  padding: 15px;
+  background-color: #fff;
 }

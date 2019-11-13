@@ -6,7 +6,7 @@
  * @LastEditors: Please set LastEditors
  */
 import { DELITEM } from './actionTypes'
-//包含所有的action creator
+//包含所有的
 export const addNameCreater = (index) =>({type: DELITEM,index})
 export const addAgeCreater = (age) => ({type: 'addAgeCreater',data: age})
 export const addNameAsync = (index) =>{
