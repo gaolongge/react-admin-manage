@@ -5,30 +5,35 @@ const menu = [{
         auth: [1]
     },
     {
-        url: '/todolist',
-        title: 'ToDoList',
+        url: '/demo',
+        title: '案例',
         icon: 'schedule',
         auth: [1],
         children: [
             {
                 title: 'ToDoList',
-                url: '/todolist',
+                url: '/demo/todolist',
                 icon: '',
-            }
+            },
+            {
+                title: 'Counter',
+                url: '/demo/counter',
+                icon: '',
+            },
         ]
     },
     {
         title: '通用',
-        url: '/public',
+        url: '/common',
         icon: 'appstore',
         auth: [1],
         children: [{
             title: '按钮',
-            url: '/public/button',
+            url: '/common/button',
             icon: ''
         }, {
             title: '图标',
-            url: '/public/icon',
+            url: '/common/icon',
             icon: ''
         }]
     },

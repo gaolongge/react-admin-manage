@@ -7,7 +7,7 @@
  */
 import React, {Component} from 'react'
 import ToDoList from '../pages/todolist/todolist'
-import Counter from '../Counter';
+import Counter from '../pages/counter/counter';
 class layoutRightMain extends Component {
   render() {
     return (
